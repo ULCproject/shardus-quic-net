@@ -1,7 +1,7 @@
 {
-  "name": "node-quic",
-  "version": "0.0.4",
-  "description": "A wrapper around fidm/quic, node-quic is a dead simple stream based QUIC server / client for use in node.js.",
+  "name": "shardus-node-quic-https",
+  "version": "0.0.0",
+  "description": "",
   "main": "./lib/index.js",
   "directories": {
     "test": "test"
