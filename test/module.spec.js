@@ -34,6 +34,10 @@ describe('snqh', () => {
       data: { bigData: 'b'.repeat(snqh.MAX_QUIC_DATA_SIZE) }
     },
     {
+      name: 'a huge object',
+      data: { bigData: 'b'.repeat(snqh.MAX_QUIC_DATA_SIZE * 100) }
+    },
+    {
       name: 'a small string',
       data: 'this here is a string!'
     },
